@@ -1,0 +1,25 @@
+{
+  "name": "fontemp",
+  "version": "1.0.0",
+  "description": "Activate & Deactivate Fonts By Temporary For Windows",
+  "author": {
+    "name": "Ahmet Zeybek",
+    "email": "me@zeybek.dev",
+    "url": "https://zeybek.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zeybek/fontemp.git"
+  },
+  "main": "index.js",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.14.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=8.x"
+  }
+}
